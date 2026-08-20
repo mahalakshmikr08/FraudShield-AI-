@@ -167,3 +167,20 @@ FraudShield-AI/
 └── FraudShield_results/
     ├── model_comparison.csv
     └── threshold_analysis.csv
+
+    ## 📊 Final Model Results
+
+After evaluating multiple machine learning models, XGBoost was selected based on the experimental results.
+
+| Metric | Result |
+|---|---:|
+| Best Model | XGBoost |
+| Decision Threshold | 0.60 |
+| Precision | 88.17% |
+| Recall | 83.67% |
+| F1 Score | 85.86% |
+| PR-AUC | 87.89% |
+
+The optimized decision threshold of 0.60 was selected based on the precision-recall trade-off and F1 score.
+
+Because credit card fraud is a highly imbalanced classification problem, PR-AUC, precision, recall and F1 score are emphasized instead of relying only on accuracy.
