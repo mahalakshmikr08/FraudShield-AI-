@@ -184,3 +184,51 @@ After evaluating multiple machine learning models, XGBoost was selected based on
 The optimized decision threshold of 0.60 was selected based on the precision-recall trade-off and F1 score.
 
 Because credit card fraud is a highly imbalanced classification problem, PR-AUC, precision, recall and F1 score are emphasized instead of relying only on accuracy.
+
+## 🤖 Model Comparison
+
+The project evaluates multiple machine learning approaches:
+
+- Logistic Regression
+- Balanced Logistic Regression
+- Random Forest
+- XGBoost
+
+The models are compared using precision, recall, F1 score and PR-AUC.
+
+The complete comparison is available in:
+
+`FraudShield_results/model_comparison.csv`
+
+## 🔄 Project Workflow
+
+```text
+Credit Card Transactions
+          ↓
+Data Understanding
+          ↓
+Exploratory Data Analysis
+          ↓
+Class Imbalance Analysis
+          ↓
+Feature Scaling
+          ↓
+Train/Test Split
+          ↓
+Multiple ML Models
+          ↓
+Model Comparison
+          ↓
+XGBoost
+          ↓
+Threshold Optimization
+          ↓
+Fraud Probability
+          ↓
+Risk Score
+          ↓
+SHAP Explainability
+          ↓
+Recommendation Engine
+          ↓
+Interactive Gradio Demo
