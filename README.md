@@ -1,4 +1,4 @@
-# FraudShield-AI-# 💳 FraudShield AI
+# 💳 FraudShield AI
 
 ## Intelligent Credit Card Fraud Detection & Risk Scoring System
 
